@@ -1,0 +1,93 @@
+button {
+  background: lightgray;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 8px;
+}
+
+button:disabled {
+  color: inherit;
+}
+.questionDisplay1 {
+  grid-area: questionDisplay1;
+}
+
+.questionDisplay2 {
+  grid-area: questionDisplay2;
+}
+
+.questionDisplay3 {
+  grid-area: questionDisplay3;
+}
+
+.questionDisplay4 {
+  grid-area: questionDisplay4;
+}
+
+.questionDisplay5 {
+  grid-area: questionDisplay5;
+}
+
+.imageA {
+  grid-area: imageA;
+}
+
+.imageB {
+  grid-area: imageB;
+}
+
+.imageC {
+  grid-area: imageC;
+}
+
+.buttonA {
+  grid-area: buttonA;
+}
+
+.buttonB {
+  grid-area: buttonB;
+}
+
+.buttonC {
+  grid-area: buttonC;
+}
+
+.question1 {
+  display: grid;
+  grid-template-areas:
+  "questionDisplay1 questionDisplay1 questionDisplay1"
+  "imageA           imageB           imageC"
+  "buttonA          buttonB          buttonC";
+}
+
+.question2 {
+  display: grid;
+  grid-template-areas: 
+  "questionDisplay2 questionDisplay2 questionDisplay2"
+  "imageA           imageB           imageC"
+  "buttonA          buttonB          buttonC";
+}
+
+.question3 {
+  display: grid;
+  grid-template-areas: 
+  "questionDisplay3 questionDisplay3 questionDisplay3"
+  "imageA           imageB           imageC"
+  "buttonA          buttonB          buttonC";
+}
+
+.question4{
+  display: grid;
+  grid-template-areas: 
+  "questionDisplay4 questionDisplay4 questionDisplay4"
+  "imageA           imageB           imageC"
+  "buttonA          buttonB          buttonC";
+}
+
+.question5{
+  display: grid;
+  grid-template-areas: 
+  "questionDisplay5 questionDisplay5 questionDisplay5"
+  "imageA           imageB           imageC"
+  "buttonA          buttonB          buttonC";
+}
