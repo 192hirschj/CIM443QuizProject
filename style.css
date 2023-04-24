@@ -8,6 +8,15 @@ button {
 button:disabled {
   color: inherit;
 }
+
+.homeTitle {
+
+}
+
+.homeBlurb {
+  font-weight: normal;
+}
+
 .questionDisplay1 {
   grid-area: questionDisplay1;
 }
