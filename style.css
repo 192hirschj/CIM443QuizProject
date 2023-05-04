@@ -39,14 +39,17 @@ button:disabled {
 
 .imageA {
   grid-area: imageA;
+  margin-left: 110px;
 }
 
 .imageB {
   grid-area: imageB;
+  margin-left: 110px;
 }
 
 .imageC {
   grid-area: imageC;
+  margin-left: 110px;
 }
 
 .buttonA {
