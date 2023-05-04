@@ -118,7 +118,7 @@ function write() {
 // Define function that thanks user
 function thank() {
   // Show an ugly pop-up
-  alert("Thanks for taking our quiz!");
+  alert("Thanks for taking the symmetry groups quiz. Press the refresh button to try again and check out your score at the bottom of the page!");
 }
 
 // For each button on my page
